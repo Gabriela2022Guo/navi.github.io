@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+.nav-section{
+    background-color:lightblue;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container{
+    display: flex;
+    padding: 5px;
+}
+.container li{
+    margin: 15px;
+}
+.box1{
+    position: relative;
+}
+.box1:hover >.box2{
+    display: block;
+    justify-content: center;
+}
+.box2{
+    display: none;
+    position: absolute;
+    background-color: lightcyan;
+    top: 18px;
+}
+ul li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+.content-section{
+    background-color: yellow;
+    margin: 2px;
+    min-height: 400px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
